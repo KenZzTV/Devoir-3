@@ -1,0 +1,58 @@
+/* HEADER */
+
+header {
+    background-color: rgb(23, 171, 179);
+    grid-column: 1 / 5;
+    align-items: inherit;
+    Height: 250px;
+}
+h1 {
+    color: white;
+    position: relative;
+    padding-left: 625px;
+    padding-top: 20px;
+}
+
+header h2 {
+    color: white;
+    position: relative;
+    padding-left: 550px;
+    margin-top: 0px;
+}
+
+header address {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    grid-template-rows: repeat(2, 30px);
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    float: right;
+    right: 21%;
+    top: 25px;
+}
+
+header address a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.photo-profil {
+    margin-right: 5px;
+    border: #f5f5f5 solid 3px;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    position : relative;
+    top: -70px;
+    left: 100px;
+}
